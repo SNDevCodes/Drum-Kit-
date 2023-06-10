@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+
+
+.w {
+background: url('images/crash.png');
+}
+
+.a {
+  background: url('images/kick.png');
+  
+}
+
+.s {
+  background: url('images/snare.png');
+  
+}
+
+.d {
+  background: url('images/tom1.png');
+  
+}
+
+.j {
+  background: url('images/tom2.png');
+  
+}
+
+.k {
+  background: url('images/tom3.png');
+  
+}
+
+.l {
+  background: url('images/tom4.png');
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+
+
+
+  .checkbox-wrapper-48 {
+    --gray: #636e72;
+    --very-light-gray: #eee;
+    --light-gray: #9098A9;
+    --x-light-gray: #dfe6e9;
+    --gradient: linear-gradient(180deg, #E02020 0%, #FA6400 17%, #F7B500 33%, #6DD400 50%, #0091FF 67%, #6236FF 83%, #B620E0 100%);
+  }
+
+  .checkbox-wrapper-48 label {
+    font-size: 1.35em;
+  }
+
+  /* CORE STYLES */
+  .checkbox-wrapper-48 input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    width: 1em;
+    height: 1em;
+    font: inherit;
+    border: 0.1em solid var(--light-gray);
+    margin-bottom: -0.125em;
+  }
+  .checkbox-wrapper-48 input[type=checkbox] {
+    border-radius: 0.25em;
+  }
+  .checkbox-wrapper-48 input:checked {
+    border-color: transparent;
+    background: var(--gradient) border-box;
+    box-shadow: 0 0 0 0.1em inset #fff;
+  }
+  .checkbox-wrapper-48 input:not(:checked):hover {
+    border-color: transparent;
+    background: linear-gradient(#fff, #fff) padding-box, var(--gradient) border-box;
+  }
